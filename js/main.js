@@ -46,21 +46,21 @@ jQuery(document).ready(function() {
   		}
   		jQuery('.crypt-box-menu').removeClass('active');
  	});
- 	if(document.getElementById('crypt-candle-chart')){
- 		new TradingView.widget(
-		 	{
-		  		"autosize": true,
-			  	"symbol": "NASDAQ:AAPL",
-			  	"interval": "D",
-			  	"timezone": "Etc/UTC",
-			  	"theme": "Dark",
-			  	"style": "1",
-			  	"locale": "en",
-			  	"toolbar_bg": "rgba(0, 0, 0, 1)",
-			  	"enable_publishing": false,
-			  	"allow_symbol_change": true,
-			  	"container_id": "crypt-candle-chart"
-			}
-	  	);
- 	}
+ 	// if(document.getElementById('crypt-candle-chart')){
+ 	// 	new TradingView.widget(
+	// 	 	{
+	// 	  		"autosize": true,
+	// 		  	"symbol": "NASDAQ:AAPL",
+	// 		  	"interval": "D",
+	// 		  	"timezone": "Etc/UTC",
+	// 		  	"theme": "Dark",
+	// 		  	"style": "1",
+	// 		  	"locale": "en",
+	// 		  	"toolbar_bg": "rgba(0, 0, 0, 1)",
+	// 		  	"enable_publishing": false,
+	// 		  	"allow_symbol_change": true,
+	// 		  	"container_id": "crypt-candle-chart"
+	// 		}
+	//   	);
+ 	// }
 });
